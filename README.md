@@ -3,14 +3,13 @@
   
 An HTML5 audio player that include functionalities like 
 
-- **Control buttons**
+- **Custom Control buttons**
 - **Display track duration**
 - **Display current track time**
 
 [Demo](https://gumbol.github.io/posts/project-html5-audio-player.html)
 
-## License
-
-This project is open source and available under the [MIT License](LICENSE).
+## Note
+In order to get the same result as the Demo, you will need to download the [css files](https://github.com/gumbol/gumbol.github.io/tree/master/styles) my website.
 
 
