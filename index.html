@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>HTML5 Audio Player | Tarik Alyhaya </title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" href="../favicon.ico">	
+	<link rel="stylesheet" type="text/css" href="css/html5-audio-player.css">
+	<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+
+</head>
+
+
+<body>
+	<!--target="_blank" rel="noreferrer noopener"-->
+	<header id="site-top">
+			<a href="https://gumbol.github.io">gumbol.github.io</a>
+		</header>
+
+
+	<main>
+
+
+
+
+			<div class="audio-player">
+
+		<div class="cover">
+			<h3>The Hobbit by J.R.R.Tolkine</h3>
+			<img src="img/cover-the-hobbit-600w-01.webp" width="600">
+
+		</div>
+
+
+			<div>
+				<ul id="playlist" class="hidden">
+					<li song="hobbit-01.mp3">Chapter 1</li>
+					<li song="hobbit-02.mp3">Chapter 2</li>
+				</ul>
+			</div>
+
+			<!-- @volume controls -->
+
+
+			<!-- @progress bar -->
+
+			<div id="progress-bar">
+					<!-- this uses native progress element-->
+					<span id="seeker"></span>
+				</div>
+	
+				<!-- @end -->
+
+			<!-- @soundtrack time information -->
+
+			<div class="time-container">
+				<span id="current-time">00:00</span>
+				<span id="duration">00:00</span>
+			</div>
+			<div class="volume-container">
+					Volume: <input id="volume-slider" type="range" min="0" max="100" value="0">
+				</div>
+			<!-- @end -->
+			<div id="buttons">
+				<span>
+					<button id="prev">&Lt;</button>
+					<button id="play">&triangleright;</button>
+					<button id="pause" class="hide">&Verbar; </button>
+					<button id="next">&NestedGreaterGreater;</button>
+				</span>
+			</div>
+
+
+		</div>
+	</main>
+	<script src="js/html5-audio-player.js"></script>
+
+	</section>
+
+	<footer class="footer flex">
+<p>Made by <a href="https://gumbol.github.io">Tarik Alyahya</a><br>
+<a href="https://github.com/gumbol/html5-audio-player">Source code</a></p>
+	</footer>
+</body>
+
+</html>
