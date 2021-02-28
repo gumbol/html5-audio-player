@@ -8,7 +8,7 @@ An HTML5 audio player that include functionalities like
 - **Display current track time**
 
 ## Note
-In order to get the same result as the Demo you will need [css files](https://github.com/gumbol/gumbol.github.io/tree/master/styles) these css files.
+In order to get the same result as the Demo you will need [these css files.](https://github.com/gumbol/gumbol.github.io/tree/master/styles)
 
 [Demo](https://gumbol.github.io/posts/app-project-html5-audio-player.html)
 
