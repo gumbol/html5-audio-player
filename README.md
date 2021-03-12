@@ -3,9 +3,10 @@
   
 An HTML5 audio player that include functionalities like 
 
-- **Custom Control buttons**
-- **Display track duration**
-- **Display current track time**
+- **Custom control buttons**
+- **Custom volume slider**
+- **Custom display for track duration**
+- **Custom display for current track time**
 
 Here is a [Demo](https://gumbol.github.io/posts/app-html5-audio-player.html)
 
