@@ -11,7 +11,7 @@ An HTML5 audio player that include functionalities like
 Here is a [Demo](https://gumbol.github.io/posts/app-html5-audio-player.html)
 
 ## Requirments
-jquery v3.3.1 or heigher
+jquery v3.3.1 or heigher (included in the repo)
 
 
 ## Getting started
