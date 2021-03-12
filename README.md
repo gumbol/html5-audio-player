@@ -7,7 +7,29 @@ An HTML5 audio player that include functionalities like
 - **Display track duration**
 - **Display current track time**
 
-Here is a [Demo](https://gumbol.github.io/posts/app-project-html5-audio-player.html)
+Here is a [Demo](https://gumbol.github.io/posts/app-html5-audio-player.html)
 
+## Requirments
+jquery v3.3.1 or heigher
+
+
+## Getting started
+* get a copy of the repository
+```html
+$git clone https://github.com/gumbol/html5-audio-player
+```
+
+* If you did not download or clone the repository then make sure that you have the files in the same directory structure locally. Otherwise you will need to change the files path inside the index.html file.
+
+```html
+## These are the default path of the repository
+<script src="js/temp-converter.js"> </script>
+<link rel="stylesheet" type="text/css" href="css/html5-audio-player.css">
+<script type="text/javascript" src="js/"></script>
+```
 ## Note
-In order to get the same result as the Demo you will need [these css files.](https://github.com/gumbol/gumbol.github.io/tree/master/styles)
+In order to get the same look as the Demo you can get [the CSS files here.](https://github.com/gumbol/gumbol.github.io/tree/master/styles)
+
+
+## Licenses
+This app is under MIT license
