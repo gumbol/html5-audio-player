@@ -898,7 +898,7 @@ button#next {
 #seeker {
   display: inline-block;
 
-  background-color: red;
+  background-color: rgb(30, 116, 228);
   height: 10px;
   margin-bottom: 10px;
 }
