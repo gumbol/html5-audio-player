@@ -23,8 +23,8 @@ $git clone https://github.com/gumbol/html5-audio-player
 > If you did not download or clone the repository then make sure that you have the files in the same directory structure locally. Otherwise you will need to point public/index.html to the right file path.
 
 ## Note
-This is a simple demo of the flexability and the power of the new html audio object. 
-I havent add any extra functionality yet.
+This is a simple demo of the flexability
+and the power of the new html audio object. 
 future development on this app will include
 
 * Process json and xml data
