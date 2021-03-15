@@ -20,7 +20,7 @@ jquery v3.3.1 or heigher (this is included with this repo)
 $git clone https://github.com/gumbol/html5-audio-player
 ```
 
-* If you did not download or clone the repository then make sure that you have the files in the same directory structure locally. Otherwise you will need to point index.html to the right file path.
+* If you did not download or clone the repository then make sure that you have the files in the same directory structure locally. Otherwise you will need to point public/index.html to the right file path.
 
 ```html
 ## This is the default structure
