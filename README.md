@@ -28,7 +28,7 @@ $git clone https://github.com/gumbol/html5-audio-player
 <script type="text/javascript" src="js/html5-audio-player.js"></script>
 ```
 ## Note
-This is a simple demo of the flexability and the power of the new html objects. I havent add any extra functionality yet.
+This is a simple demo of the flexability and the power of the new html audio object. I havent add any extra functionality yet.
 future development on this repo will include
 * Process json and xml data
 * Automate playlist creation
