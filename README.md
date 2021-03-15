@@ -37,5 +37,5 @@ future development on this repo will include
 * add numeral scale to the volume control
 
 
-##Licenses
+## Licenses
 This app is under MIT license
