@@ -8,7 +8,7 @@ A custom HTML5 audio player that include functionalities like
 - **Custom display for track duration**
 - **Custom display for current track time**
 
-Here is a [Demo](https://gumbol.github.io/posts/app-html5-audio-player.html)
+[Here is a Demo](https://gumbol.github.io/posts/app-html5-audio-player.html)
 
 ## Requirments
 jquery v3.3.1 or heigher (included with this repo)
