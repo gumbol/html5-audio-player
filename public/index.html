@@ -1,130 +1,110 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8" />
-    <title>HTML5 Audio Player | Tarik Alyhaya</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="shortcut icon" href="../favicon.ico" />
-    <link rel="stylesheet" type="text/css" href="styles/style.css" />
-		<no-script>
-Javascript needs to be enabled
-</no-script>
-    <script
-      type="text/javascript"
-      src="javascripts/jquery-3.3.1.min.js"
-    ></script>
 
-  </head>
-  <style>
-    #site-top {
-      margin-bottom: 30px;
-      background: var(--sf-img-6) 0 10% / auto 80% no-repeat;
-      min-height: 9em;
-      border-bottom: 1px solid;
-    }
-    #site-top a {
-      margin-top: -10px;
-    }
-  </style>
-  <body>
-    <!--target="_blank" rel="noreferrer noopener"-->
+<head>
+  <meta charset="UTF-8" />
+  <title>HTML5 Audio Player | Tarik Alyhaya</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="shortcut icon" href="images/favicon.ico" />
+  <link rel="stylesheet" type="text/css" href="styles/style.css" />
+  <no-script>
+    Javascript needs to be enabled
+  </no-script>
+  <script type="text/javascript" src="scripts/jquery-3.3.1.min.js"></script>
 
-    <!--main header"-->
-    <header id="site-top">
-      <a href="https://gumbol.github.io/">gumbol.github.io</a>
-    </header>
+</head>
+<style>
+  #site-top {
+    margin-bottom: 30px;
+    background: var(--sf-img-6) 0 10% / auto 80% no-repeat;
+    min-height: 9em;
+    border-bottom: 1px solid;
+  }
 
-    <main>
-      <p>
-        <b>Click on the play button (Don't forget to increase the volume!)</b>
-      </p>
+  #site-top a {
+    margin-top: -10px;
+  }
+</style>
 
-      <div class="audio-player">
-        <div class="cover">
-          <h3>The Hobbit by J.R.R.Tolkine</h3>
-          <img src="images/cover-the-hobbit-600w-01.webp" width="600" />
-        </div>
-        <div>
-          <ul id="playlist">
-            <li song="hobbit-01.mp3">Chapter 1</li>
-            <li song="hobbit-02.mp3">Chapter 2</li>
-          </ul>
-        </div>
+<body>
+  <!--target="_blank" rel="noreferrer noopener"-->
 
-        <!-- @volume controls -->
+  <!--main header"-->
+  <header id="site-top">
+    <a href="https://gumbol.github.io/">gumbol.github.io</a>
+  </header>
 
-        <!-- @progress bar -->
+  <main>
+    <p>
+      <b>Click on the play button</b>
+    </p>
 
-        <div id="progress-bar">
-          <!-- this uses native progress element-->
-          <span id="seeker"></span>
-        </div>
-
-        <!-- @end -->
-
-        <!-- @soundtrack time information -->
-
-        <div class="time-container">
-          <span id="current-time">00:00</span>
-          <span id="duration">00:00</span>
-        </div>
-        <div class="volume-container">
-          Volume:
-          <input id="volume-slider" type="range" min="0" max="100" value="50" />
-        </div>
-        <!-- @end -->
-        <div id="buttons">
-          <span>
-            <button id="prev">&Lt;</button>
-            <button id="play">&triangleright;</button>
-            <button id="pause" class="hide">&Verbar;</button>
-            <button id="next">&NestedGreaterGreater;</button>
-          </span>
-        </div>
-
-
+    <div class="audio-player">
+      <div class="cover">
+        <h3>The Hobbit by J.R.R.Tolkine</h3>
+        <img src="images/hobbit-01-600w.webp" width="600" />
       </div>
-    </main>
-    <script src="scripts/html5-audio-player-v1.js"></script>
-
-    <footer id="global">
       <div>
-        <nav class="site-links">
-          Author: <a href="https://gumbol.github.io/about">Tarik Alyahya</a>
-
-          <a
-            class="btn1"
-            href="https://github.com/gumbol/html5-audio-player"
-            target="_blank"
-            rel="noreferrer noopener"
-            >Source code</a
-          >
-
-          <a href="https://gumbol.github.io/projects.html"
-            >More Projects</a
-          >
-        </nav>
-
-        <nav class="out-links">
-          <a
-            href="https://github.com/gumbol"
-            title="Github mascot"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img
-<<<<<<< HEAD
-              src="images/github-32x-01.png"
-              alt="Github account"
-=======
-              src="images/github-32x.png"
-              alt="GitHub"
->>>>>>> b5d3907a91ab20ddc7e34c69194bb68c998b0d55
-              width="32"
-            />
-          </a>
-        </nav>
+        <ul id="playlist">
+          <li song="hobbit-01.mp3">Chapter 1</li>
+          <li song="hobbit-02.mp3">Chapter 2</li>
+        </ul>
       </div>
-    </footer>
-  </body>
+
+      <!-- @volume controls -->
+
+      <!-- @progress bar -->
+
+      <div id="progress-bar">
+        <!-- this uses native progress element-->
+        <span id="seeker"></span>
+      </div>
+
+      <!-- @end -->
+
+      <!-- @soundtrack time information -->
+
+      <div class="time-container">
+        <span id="current-time">00:00</span>
+        <span id="duration">00:00</span>
+      </div>
+      <div class="volume-container">
+        Volume:
+        <input id="volume-slider" type="range" min="0" max="100" value="50" />
+      </div>
+      <!-- @end -->
+      <div id="buttons">
+        <span>
+          <button id="prev">&Lt;</button>
+          <button id="play">&triangleright;</button>
+          <button id="pause" class="hide">&Verbar;</button>
+          <button id="next">&NestedGreaterGreater;</button>
+        </span>
+      </div>
+
+
+    </div>
+  </main>
+  <script src="scripts/html5-audio-player-v1.js"></script>
+
+  <footer id="global">
+    <div>
+      <nav class="site-links">
+        Author: <a href="https://gumbol.github.io/about">Tarik Alyahya</a>
+
+        <a class="btn1" href="https://github.com/gumbol/html5-audio-player" target="_blank"
+          rel="noreferrer noopener">Source code</a>
+
+        <a href="https://gumbol.github.io/projects.html">More Projects</a>
+      </nav>
+
+      <nav style="text-align: center;"  class="out-links">
+        <a href="https://github.com/gumbol" title="Github mascot" target="_blank" rel="noopener noreferrer">
+          <img src="images/github-32x.png" alt="GitHub" width="32" />
+        </a>
+      </nav>
+    </div>
+  </footer>
+</body>
+
 </html>
